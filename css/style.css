@@ -1,0 +1,41 @@
+body{
+    background-image: url(/imgs/photo-1553095066-5014bc7b7f2d.avif);
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    height: 100vh;
+}
+.container .row .layer{
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+.fixed-layer {
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.fixed-layer .inner-box #right{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+}
+.fixed-layer .inner-box #left{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+}
+.fixed-layer .inner-box #close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.w-35{
+ 
+    width: 35%;
+}
+i{
+    cursor: pointer;
+    font-size: 25px;
+}
+.container img  {
+    cursor: pointer;
+}

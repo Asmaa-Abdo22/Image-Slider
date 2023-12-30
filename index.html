@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <!-- &----------------FAV ICON------------- -->
+    <link rel="shortcut icon" href="imgs/2659360.png" type="image/x-icon">
+    <!-- &----------------CSS FILES------------- -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="home d-flex justify-content-center align-items-center">
+        <div class="container bg-info my-5 " id="slider">
+            <div class="row gy-4">
+              <div class="col-lg-4">
+                <div class="item position-relative">
+                  <img src="imgs/portfolio-3.jpg" alt="mask" class="w-100" />
+                  <div class="layer bg-light position-absolute text-center">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="item position-relative">
+                  <img src="imgs/portfolio-1.jpg" alt="wall" class="w-100" />
+                  <div class="layer bg-light position-absolute text-center">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="item position-relative">
+                  <img src="imgs/portfolio-4.jpg" alt="bottle" class="w-100" />
+                  <div class="layer bg-light position-absolute text-center">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="item position-relative">
+                  <img src="imgs/p-4.jpg" alt="star" class="w-100" />
+                  <div class="layer bg-light position-absolute text-center">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="item position-relative">
+                  <img src="imgs/portfolio-3.jpg" alt="bottle" class="w-100" />
+                  <div class="layer bg-light position-absolute text-center">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="item position-relative">
+                  <img src="imgs/portfolio-4.jpg" alt="mask" class="w-100" />
+                  <div class="layer bg-light position-absolute text-center">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+   
+
+    <div
+      class="fixed-layer position-fixed top-0 bottom-0 end-0 start-0 justify-content-center align-items-center d-none"
+     id="fixedLayer">
+      <div class="inner-box w-35 position-relative">
+        <img src="imgs/portfolio-1.jpg" alt="wall" class="w-100" id="imgBox" />
+        <i class="fa-solid fa-right-long" id="right"></i>
+        <i class="fa-solid fa-left-long" id="left"></i>
+        <i class="fa-solid fa-xmark" id="close"></i>
+      </div>
+    </div>
+
+    <!-- &----------------JS FILES------------- -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
